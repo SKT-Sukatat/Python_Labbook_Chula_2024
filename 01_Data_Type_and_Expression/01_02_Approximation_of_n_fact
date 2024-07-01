@@ -1,0 +1,9 @@
+import math
+
+n = int(input())
+
+lower_bound = (math.sqrt(2*math.pi)) * ((n)**(n+0.5)) * (math.e)**(-1*n + 1/(12*n+1))
+upper_bound = (math.sqrt(2*math.pi)) * ((n)**(n+0.5)) * (math.e)**(-1*n + 1/(12*n))
+
+print(lower_bound)
+print(upper_bound)
