@@ -1,0 +1,5 @@
+day, month, year = [int(x) for x in input().split('/')]
+
+month_text = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+print(month_text[month-1] + ' ' + str(day) +', '+ str(year))
