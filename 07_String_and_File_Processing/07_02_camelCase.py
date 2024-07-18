@@ -1,3 +1,6 @@
+## Bad Method Too Long, and Complex
+## Please Check Ajarn Somchai's Video 
+
 sentence = input().split()
 
 for i in range(len(sentence)):
